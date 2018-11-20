@@ -74,7 +74,7 @@ int printf(const char* restrict format, ...) {
 			format += len;
 		}
 	}
-
+	tty_updatecursor();
 	va_end(parameters);
 	return written;
 }

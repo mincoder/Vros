@@ -38,6 +38,12 @@ string/memcpy.o \
 string/memmove.o \
 string/memset.o \
 string/strlen.o \
+string/strcat.o \
+memory/sbrk.o \
+memory/malloc.o \
+memory/kmalloc.o \
+memory/memory_copy.o \
+memory/memory_set.o \
 
 HOSTEDOBJS=\
 $(ARCH_HOSTEDOBJS) \
